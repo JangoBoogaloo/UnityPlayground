@@ -322,3 +322,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c192ada6ead0440aaf2d6bdbd682606, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myScriptableScriptable: {fileID: 11400000, guid: d8be2742ce4334a878bffdf6cea7c3a0, type: 2}

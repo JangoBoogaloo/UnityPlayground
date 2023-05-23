@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    public MyScriptable myScriptable;
+    public ScriptableScriptable myScriptableScriptable;
 
     // Start is called before the first frame update
     void Start()
     {
-        foreach (var point in myScriptable.myPoints)
+        foreach (var scriptable in myScriptableScriptable.myScriptables)
         {
+            foreach (var point in scriptable.myPoints)
+            {
+                Debug.Log(point);
+            }
         }
         
     }
